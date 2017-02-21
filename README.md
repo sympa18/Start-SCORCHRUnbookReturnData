@@ -12,3 +12,5 @@ $RunbookPath = "\04.0 Provisioning\04.0 ReturnData Example\04.0 ReturnData"  �
 Start-SCORCHRunbook -InParam $Parameters -RunbookPath $RunbookPath     
 Prerequisites : This Runbook uses the OrchetrstorService PowerShell module that resides in the folder C:\inetpub\Service Management Automation\Modules on a Server with SMA installed. 
 You can replace those cmdlets with any available PowerShell module for Orchestrator in the community if you like otherwise ensure this module is loaded.
+
+The OrchestratorService.zip module has now been added to the Repository
